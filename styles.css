@@ -1,0 +1,18 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice{
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #2B2E4A;
+  /* https://colorhunt.co/palette/264850 */
+}
+h1, footer, p {
+  color: #903749;
+}
