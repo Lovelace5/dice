@@ -13,6 +13,27 @@ body {
   background-color: #2B2E4A;
   /* https://colorhunt.co/palette/264850 */
 }
+
 h1, footer, p {
   color: #903749;
+  text-align: center;
+  font-family: 'Kiwi Maru', serif;
+}
+
+p{
+  font-size: 2rem;
+
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 10%;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+margin-top: 13%;
 }
