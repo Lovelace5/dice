@@ -20,6 +20,7 @@ h1 {
   color: #ff8882;
   text-align: center;
   font-family: 'Kiwi Maru', serif;
+  margin-bottom: 10%;
 }
 
 p {
@@ -27,18 +28,55 @@ p {
   color: #194350;
 }
 
-h1 {
-  font-size: 7rem;
-  margin-bottom: 10%;
-}
-
 img {
   width: 80%;
 }
 
+.button {
+  text-align: center;
+  backface-visibility: hidden;
+  margin-top: 10%;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #ff8882;
+  border-radius: 10px;
+  border: 1px solid #b77932;
+  border-width: 1px 1px 1px 1px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,1),0px 1px 3px rgba(0,0,0,0.3);
+  color: #fff;
+  font-size: 040px;
+  font-family: Lucida Sans Unicode;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.4)
+  }
+  .button > div {
+    color: #999;
+  font-size: 10px;
+  font-family: Helvetica Neue;
+  font-weight: initial;
+  font-style: normal;
+  text-align: center;
+  margin: 0px 0px 0px 0px
+  }
+  .button > i {
+  font-size: 1em;
+  border-radius: 0px;
+  border: 0px solid transparent;
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  position: static
+  }
+  .button > .ld {
+    font-size: initial
+  }
+
 footer {
   color: #ffc2b4;
-  margin-top: 27%;
+  margin-top: 18%;
   text-align: center;
   font-size: 2rem;
 }
