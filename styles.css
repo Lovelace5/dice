@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.dice{
+.dice {
   text-align: center;
   display: inline-block;
 }
@@ -20,13 +20,12 @@ h1, footer, p {
   font-family: 'Kiwi Maru', serif;
 }
 
-p{
+p {
   font-size: 2rem;
-
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 7rem;
   margin-bottom: 10%;
 }
 
@@ -35,5 +34,5 @@ img {
 }
 
 footer {
-margin-top: 13%;
+  margin-top: 11%;
 }
