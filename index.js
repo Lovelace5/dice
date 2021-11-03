@@ -27,7 +27,7 @@ image2.setAttribute("src", randomImageSource2);
 let winnerStatus = document.querySelector("h1");
 
 if (randomNumber1 === randomNumber2) {
-  winnerStatus.innerHTML = "It's a draw. Try again!";
+  winnerStatus.innerHTML = "Draw. Try again!";
 }
 else if (randomNumber1 > randomNumber2) {
   winnerStatus.innerHTML = "🚩 Player 1 wins!";
